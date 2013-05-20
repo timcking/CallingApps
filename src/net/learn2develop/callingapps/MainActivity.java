@@ -83,7 +83,7 @@ public class MainActivity extends Activity {
         */
         
         Intent i = new Intent(android.content.Intent.ACTION_VIEW);
-        i.setDataAndType(Uri.parse("file:///storage/sdcard0/MyPhoto.jpg"), "image/*");        
+        i.setDataAndType(Uri.parse("file:///sdcard/out_of_clothes1.jpg"), "image/*");        
         startActivity(i);
         
 	}
